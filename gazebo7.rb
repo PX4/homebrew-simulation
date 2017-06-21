@@ -13,7 +13,8 @@ class Gazebo7 < Formula
     rebuild 3
     sha256 "6bcb352bca6d15e333540b10aab93a7f94308c64508951f9b6240313a095425b" => :el_capitan
     sha256 "68274d6c7b1a84ba3cbdabdb4328e3afe8e548cf405252b08176fa0637267588" => :yosemite
-    sha256 "9a71354010faea9ef546af71e6008f6cfbf863ca1602159ffcc9387bf4cd9794" => :sierra
+    rebuild 4
+    sha256 "83094537a2d5b3efbeb29b1169aba36a27e29e6ba3b3becd5da7e94a938c9c74" => :sierra
   end
 
   depends_on "cmake" => :build
